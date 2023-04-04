@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-
 /*globales*/
 * ,
 * ::before,
@@ -17,7 +15,6 @@ html {
     color:#000;
     scroll-behavior: smooth;
 }
-
 
 body {
     background-color: #ffdd90;
@@ -60,7 +57,7 @@ header {
     top: 0;
     left: 0; 
     z-index:  1;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);   
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 .he-des {
     width: 100%;
@@ -68,7 +65,7 @@ header {
     top: 0;
     left: 0; 
     z-index:  1;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);   
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 
 
@@ -295,7 +292,7 @@ header {
 
 .taste {
     background: url("../imagenes/cono.jpeg") center no-repeat;
-    background size: cover; 
+    background-size: cover; 
     width: 400px;
     height: 200 px;
     
@@ -362,28 +359,8 @@ footer {
     line-height: 2;
 }
 
-
-</div>
-
-<nav class ="social">
-<ul>
-<li>
-<a href="#"
->Twitter <i class="fa fa-twitter"></i></a>
-</li>
-<li>
-<a href="#"
->Github <i class="fa fa-github"></i></a>
-</li>
-<li>
-<a href="#"
->Linkedin <i class="fa fa-linkedin"></i></a>
-</li>
-</ul>
-</nav>
-
 .social-icons {
-    list.style: none;
+    list-style: none;
     margin-bottom: 5.4rem;
     display: flex;
     justify-content: center;
@@ -427,10 +404,8 @@ footer {
     margin-left: 20.5rem;
 }
 
-@media screen and <min-width: 900px>
-    @media screen and <min-width: 900px> 
-    @media screen and <min-width: 900px> 
-}
+@media screen and (min-width: 900px)
+{
 
 
     .section {
@@ -563,7 +538,7 @@ footer {
 			margin-top:-100px;
 		}
 
-        }
+    }
 
 
 
